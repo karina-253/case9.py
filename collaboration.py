@@ -5,7 +5,7 @@ import time
 
 def translate_color(color_rus):
     """Перевод русских названий цветов на английские для turtle"""
-    color_map = {
+    colors = {
         'красный': 'red',
         'оранжевый': 'orange',
         'желтый': 'yellow',
