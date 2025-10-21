@@ -17,7 +17,7 @@ def translate_color(color_rus):
         'серый': 'gray',
         'белый': 'white'
     }
-    return color_map.get(color_rus.lower(), 'black')
+    return colors[color_rus.lower()]
 
 
 def calculate_side_length(number, size):
