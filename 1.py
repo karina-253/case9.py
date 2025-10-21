@@ -121,7 +121,7 @@ def main():
     color_second = get_color_choice('Выберите второй цвет из предложенных выше: ')
 
     # Вычисляем размеры
-    size = 400  # Уменьшил размер для лучшего отображения
+    size = 500  # Уменьшил размер для лучшего отображения
     side_length = size / (N * 1.5)
     diagonal = math.sqrt(3) * side_length
 
